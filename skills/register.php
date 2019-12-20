@@ -18,14 +18,14 @@
 <label for="textfield">nacimiento</label>
 <input type="text" placeholder="Ingrese su fecha de nacimiento" id="fecha">
 <label for="textfield">email</label>
-<input type="text" placeholder="Ingrese su fecha de nacimiento" id="fecha">
+<input type="text" placeholder="Ingrese su fecha de nacimiento" id="email">
 <label for="textfield">contraseña</label>
-<input type="text" placeholder="Ingrese su fecha de nacimiento" id="fecha">
+<input type="text" placeholder="Ingrese su fecha de nacimiento" id="contraseña">
 <form method="POST" action="">
 <h2>acepta todos los terminos y condiciones</h2>
 <input type="checkbox" name="aceptar" id="aceptar">
 <input type="submit" id="button" value="Register">
-</form>
+
 
 </body>
 </html>

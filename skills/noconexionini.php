@@ -2,9 +2,9 @@
 session_start();
 include("noconexion.php");
 $documento=$_POST["documento"];
-$clave=$_POST["clave"];
+$contraseña=$_POST["contraseña"];
 $cont="0";
-$sql = "Select * from usuarios WHERE documento='$documento' and clave='$clave'";
+$sql = "Select * from usuario WHERE documento='$documento' and contraseña='$contraseña'";
 	if(!$result = $db->query($sql))
 	{
 		die ('hay un error corriente en la consulta o datos no encontrados!!![' . $db-> error.' ]');
@@ -31,13 +31,13 @@ if ($cont!="0")
 	$_SESSION["documento"]=$documento;
 
 	if($fk_iid_permiso==1){
-		header("location:menuusu.php");
+		header("location:usuperfil.php");
 	}
 	if($fk_iid_permiso==2){
-		header("location:menuadmin.php");
+		header("location:admindex.php");
 	}
 	if($fk_iid_permiso==3){
-		header("location:menusuper.php");
+		header("location:supindex.php");
 	}
 }
 if ($cont==0)

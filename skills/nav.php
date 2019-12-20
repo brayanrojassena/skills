@@ -4,7 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="index.php">Inicio</a>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.jpg" width="30%" heigt="30%"></a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
         <a class="nav-link" href="register.php">Registrarse <span class="sr-only">(current)</span></a>
