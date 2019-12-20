@@ -1,25 +1,15 @@
-body{
-    background: url(.../img/in-log-usu.jpg) no repear center top;
-}
 .login-box {
-    width :320px;
-    height: 420px;
+    width :820px;
+    height: 1020px;
 background: #000;
 top: 50%;
 left: 50%;
 position: absolute;
 transform: translate(-50%, -50%);
 box-sizing:border-box;
-padding: 70px 30px; 
+padding: 100px 30px; 
 }
-    .login-box .avatar {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        position: absolute;
-        top: -50px;
-        left: calc(50% - 50px);
-    }
+
 
 .login-box h1{
     margin: 0px;
@@ -64,7 +54,7 @@ padding: 70px 30px;
     }
     
     .login-box a :hover {
-        color: #fff;
+        color: rgb(255, 0, 0);
     }
 
     img{ display:block; width: 50%;}
@@ -73,8 +63,8 @@ padding: 70px 30px;
         filter:grayscale(1);
     }
     .login-box {
-    width :320px;
-    height: 420px;
+    width :1000px;
+    height: 750px;
 background: #000;
 top: 50%;
 left: 50%;
@@ -83,29 +73,30 @@ transform: translate(-50%, -50%);
 box-sizing:border-box;
 padding: 70px 30px; 
 }
-    .login-box .avatar {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        position: absolute;
-        top: -50px;
-        left: calc(50% - 50px);
-    }
+
 
 .login-box h1{
     margin: 0px;
     padding: 0 0 20px;
     text-align: center;
     font-size: block;
+    color: rgb(38, 16, 238);
+}
+.login-box h2{
+    margin: 0px;
+    padding: 0 0 20px;
+    font-size: block;
+    color: rgb(38, 16, 238);
 }
 .login-box label {
     margin: 0;
     padding: 0;
     font-weight: bold;
     display: block;
+    color: #fff;
 }
 .login-box input{
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
 }
 .login-box input [type="textfield"],
@@ -121,11 +112,11 @@ padding: 70px 30px;
 .login-box input[type="submit"]{
     border:none;
     outline: none;
-    height: 40px;
-    background: #b80f22;
+    height: 42px;
+    background: #001aff;
     color: #fff;
     font-size: 18px;
-    border-radius:20px;
+    border-radius:10px;
 }
 .login-box a {
     text-decoration: none;
@@ -143,8 +134,3 @@ padding: 70px 30px;
         -webkit-filter:grayscale(1);
         filter:grayscale(1);
     }
-
-
-
-
-
